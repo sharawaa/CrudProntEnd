@@ -1,3 +1,3 @@
-export default function Category(){
-    return<>Filter by category</>
+export default function Category() {
+  return <>Filter by category</>;
 }

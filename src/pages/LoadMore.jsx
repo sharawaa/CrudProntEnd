@@ -1,3 +1,3 @@
-export default function LoadMore(){
-    return<>loadmore</>
+export default function LoadMore() {
+  return <></>;
 }
