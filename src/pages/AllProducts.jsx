@@ -10,14 +10,15 @@ export default function AllProducts() {
     <Table striped bordered hover size="sm" className="table-body-head">
       <thead>
         <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>image</th>
+          <th>name</th>
+          <th>price</th>
+          <th>sale</th>
         </tr>
       </thead>
-
-      <Products />
+      <tbody>
+        <Products />
+      </tbody>
     </Table>
   );
 }
