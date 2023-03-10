@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:2022/products")
+      .get("http://localhost:4000/product")
       .then((products) => setProducts(products.data));
   }, []);
   console.log(products);
