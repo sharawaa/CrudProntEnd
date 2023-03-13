@@ -1,0 +1,51 @@
+.addProduct{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.addProduct input{
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+}
+/* .addProduct select{
+    width: 600px;
+    height: 35px;
+    margin: 10px;
+} */
+ button{
+    height: 64px;
+    width: 512px;
+    background-color:  #8B89F9;
+}
+.brand-select{
+    width: 600px;
+    height: 35px;
+    margin: 10px;
+}
+.category-select{
+    width: 1230px;
+    height: 35px;
+    margin: 10px;
+}
+.addCategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addCategory input{
+    width: 1230px;
+    height: 35px;
+    margin: 10px;
+}
+.addBrand input{
+    width: 1230px;
+    height: 35px;
+    margin: 10px;
+}
+.addBrand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -8,10 +8,12 @@ import Products from "../components/mainComponents/Products";
 export default function AllProducts() {
   return (
     <Table striped bordered hover size="sm" className="table-body-head">
-      <thead>
+      <thead >
         <tr>
           <th>image</th>
           <th>name</th>
+          <th>brand</th>
+          <th>category</th>
           <th>price</th>
           <th>sale</th>
         </tr>

@@ -1,13 +1,14 @@
 import { useContext } from "react";
 import { ProductContext } from "../../App";
+import "../../styles/allProducts.css"
 
 export default function Products() {
-  const { products, setProducts } = useContext(ProductContext);
+  const { products } = useContext(ProductContext);
   return (
     <>
       {products &&
         products.map((product) => (
-          <tr>
+          <tr >
             <td>
               <img
                 src={product.image}
@@ -16,6 +17,9 @@ export default function Products() {
               />
             </td>
             <td>{product.name}</td>
+            <td>{product.brand}</td>
+            <td>{product.category}</td>
+          
             <td>{product.price}</td>
             <td>{product.sale}</td>
           </tr>
